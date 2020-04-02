@@ -3,3 +3,6 @@
 @import url(../blocks/html/html.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
+@import url('../blocks/blogs/blogs.css');
+@import url('../blocks/feature/feature.css');
+@import url('../blocks/blog/blog.css');
