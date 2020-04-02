@@ -1,0 +1,5 @@
+.feature__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+}

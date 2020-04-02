@@ -1,0 +1,9 @@
+@import url('__title/blogs__title.css');
+@import url('__subtitle/blogs__subtitle.css');
+@import url('__container/blogs__container.css');
+
+
+.blogs {
+    margin: 0 auto;
+    padding: 88px 0 80px;
+}
