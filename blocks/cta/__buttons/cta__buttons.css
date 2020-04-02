@@ -1,0 +1,23 @@
+.cta__buttons {
+  display: flex;
+  max-width: 416px;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .cta__buttons {
+    flex-direction: column;
+    margin: auto 0;
+  }
+}
+@media (max-width: 600px) {
+  .cta__buttons {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .cta__buttons {
+    flex-direction: row;
+    margin: auto;
+  }
+}
