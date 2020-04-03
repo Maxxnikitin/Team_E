@@ -1,0 +1,15 @@
+.footer__social {
+    margin-right: 25.6px;
+    transition: opacity .2s linear;
+    border-radius: 50%;
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.footer__social:last-of-type {
+    margin-right: 0;
+}
+
+.footer__social:hover {
+    opacity: .7;
+}
