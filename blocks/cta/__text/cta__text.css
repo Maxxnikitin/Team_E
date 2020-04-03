@@ -1,0 +1,21 @@
+.cta__text {
+  max-width: 326px;
+  font-size: 2rem;
+  line-height: 2.8125rem;
+  color: black;
+  text-align: center;
+  margin-right: 15.903%;
+}
+
+@media (max-width: 600px) {
+  .cta__text {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .cta__text {
+    margin: auto;
+  }
+}
+

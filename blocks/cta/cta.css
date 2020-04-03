@@ -1,0 +1,27 @@
+@import url(./__text/cta__text.css);
+@import url(./__title/cta__title.css);
+@import url(./__subtitle/cta__subtitle.css);
+@import url(./__buttons/cta__buttons.css);
+@import url(./__button/cta__button.css);
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  height: 240px;
+  background-color: #F7941E;
+}
+
+@media (max-width: 600px) {
+  .cta {
+    justify-content: space-between;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .cta {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
