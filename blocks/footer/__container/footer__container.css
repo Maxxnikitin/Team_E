@@ -1,0 +1,13 @@
+.footer__container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__container:first-of-type {
+    padding-bottom: 43px;
+}
+
+.footer__container:last-of-type {
+    margin: 72.8px auto 0;
+}
