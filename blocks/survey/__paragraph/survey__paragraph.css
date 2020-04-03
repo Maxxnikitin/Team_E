@@ -1,7 +1,6 @@
-.hero__subtitle{
+.survey__paragraph{
     font-size: 1.25rem;
     line-height: 1.75rem;
-    font-weight: normal;
-    margin-bottom: 50px;
+    text-align: justify;
     max-width: 350px;
 }

@@ -4,10 +4,12 @@
 @import url(./__button/hero__button.css);
 @import url(./__subtitle/hero__subtitle.css);
 
+
 .hero{
     max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #F1F1F2;
+    margin: 0 auto;
    
 }
