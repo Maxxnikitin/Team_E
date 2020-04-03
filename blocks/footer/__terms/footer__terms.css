@@ -4,4 +4,9 @@
     font-weight: 500;
     color: black;
     text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.footer__terms:hover {
+    opacity: .7;
 }

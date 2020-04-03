@@ -4,6 +4,7 @@
     font-size: .875rem;
     line-height: 140.62%;
     font-weight: 800;
+    transition: opacity .2s linear;
 }
 
 .footer__link:first-of-type {
@@ -12,4 +13,8 @@
 
 .footer__link:last-of-type {
     margin-left: 54px;
+}
+
+.footer__link:hover {
+    opacity: .7;
 }

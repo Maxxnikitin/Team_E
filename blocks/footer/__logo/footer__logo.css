@@ -5,4 +5,10 @@
     font-size: 1.125rem;
     line-height: 2.4375rem;
     margin: 0 141px;
+    text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.footer__logo:hover {
+    opacity: .7;
 }
