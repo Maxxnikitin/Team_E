@@ -12,3 +12,21 @@
 .footer__logo:hover {
     opacity: .7;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer__logo {
+        margin: 0 105px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer__logo {
+        margin: 0 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__logo {
+        margin: 0 50px;
+    }
+}

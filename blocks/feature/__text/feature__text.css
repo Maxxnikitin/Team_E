@@ -4,3 +4,9 @@
     margin-left: 78px;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 600px) {
+    .feature__text {
+        margin-left: 35px;
+    }
+}

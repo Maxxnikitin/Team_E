@@ -10,8 +10,30 @@
     height: 290px;
     align-items: flex-start;
     transition: box-shadow .2s linear;
+    padding: 3rem 3rem 0;
 }
 
 .blog:hover {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 1200px) {
+    .blog {
+        width: 390px;
+        padding: 2rem 2rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blog {
+        width: 290px;
+        padding: 1rem 1rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blog {
+        max-width: 195px;
+        padding: .75rem .75rem 0;
+    }
 }

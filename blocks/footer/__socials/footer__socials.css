@@ -6,3 +6,21 @@
     justify-content: center;
     padding-top: 55.8px;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer__socials {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer__socials {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__socials {
+        width: 350px;
+    }
+}

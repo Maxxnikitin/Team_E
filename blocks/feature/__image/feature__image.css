@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+    .feature__image {
+        width: 300px;
+        height: 277.5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .feature__image {
+        width: 200px;
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feature__image {
+        width: 150px;
+        height: 138.75px;
+    }
+}
