@@ -1,6 +1,7 @@
 .blog__content {
     font-size: 1.125rem;
     line-height: 140.62%;
+    font-weight: 500;
     max-width: 474px;
     margin: 0 48px 16px;
 }
