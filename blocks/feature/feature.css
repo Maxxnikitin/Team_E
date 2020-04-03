@@ -1,0 +1,15 @@
+@import url('__text/feature__text.css');
+@import url('__author/feature__author.css');
+@import url('__image/feature__image.css');
+@import url('__lead/feature__lead.css');
+@import url('__title/feature__title.css');
+
+
+
+.feature {
+    width: 1170px;
+    background-color: #231F20;
+    margin: 71px auto 88px;
+    color: white;
+    display: flex;
+}

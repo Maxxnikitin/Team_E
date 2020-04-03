@@ -1,0 +1,16 @@
+@import url('__title/blog__title.css');
+@import url('__content/blog__content.css');
+@import url('__lead/blog__lead.css');
+@import url('');
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 290px;
+    transition: box-shadow .2s linear;
+}
+
+.blog:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
