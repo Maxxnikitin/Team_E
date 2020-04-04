@@ -1,7 +1,27 @@
 .feature__title {
     font-size: 3rem;
-    line-height: 3.625rem;
-    margin: 0 0 60px;
-    font-weight: normal;
+    line-height: 120%;
+    margin: 0 0 71px;
+    font-weight: 300;
     width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .feature__title {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .feature__title {
+        margin: 0 0 25px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feature__title {
+        margin: 0 0 14px;
+        width: 80%;
+    }
 }
