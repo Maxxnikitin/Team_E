@@ -10,3 +10,11 @@ header{
     margin: 0 auto;
 
 }
+
+@media (max-width: 800px){
+    .header{
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+}

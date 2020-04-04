@@ -2,4 +2,12 @@
 
     max-width: 270px;
     justify-self: center;
+    background-color: #FAFAFA;
+    padding-bottom: 25px;
+    
+}
+.cards__blog:hover{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 4px 0 rgba(98, 98, 98, .1);
+
 }

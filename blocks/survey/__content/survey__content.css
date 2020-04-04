@@ -1,6 +1,13 @@
 .survey__content{
     max-width: 433px;
     align-self: center;
-    margin: 0 auto;
+    margin: 100px auto 25px;
     max-width: 441px;
+}
+
+@media (max-width: 800px){
+    .survey__content{
+        max-width: 500px;
+        padding-bottom: 50px;
+    }
 }

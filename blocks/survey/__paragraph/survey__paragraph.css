@@ -3,4 +3,28 @@
     line-height: 1.75rem;
     text-align: justify;
     max-width: 350px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px){
+    .survey__paragraph{
+        max-width: 500px;
+        text-align: justify;
+        margin: 0 auto;
+
+    }
+}
+
+@media (max-width: 600px){
+    .survey__paragraph{
+        max-width: 350px;
+
+    }
+}
+
+@media (max-width: 400px){
+    .survey__paragraph{
+        max-width: 250px;
+
+    }
 }

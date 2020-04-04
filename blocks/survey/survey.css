@@ -11,3 +11,9 @@
     background-color: #F1F1F2;
     margin: 0 auto;
 }         
+
+@media (max-width: 800px){
+    .survey{
+        display: block;
+    }
+}

@@ -8,6 +8,18 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    margin-top: 55px;
+    margin-top: 30px;
    
+}
+
+.survey__button:hover{
+    
+    transition: 0.3s;
+    box-shadow: 10px 10px 4px 0 rgba(98, 98, 98, .2);
+}
+@media (max-width: 800px){
+    .survey__button{
+        display: block;
+        margin: 30px auto 0;
+    }
 }

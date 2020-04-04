@@ -2,6 +2,20 @@
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: normal;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     max-width: 350px;
+}
+
+@media (max-width: 800px){
+    .hero__subtitle{
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .hero__subtitle{
+        max-width: 300px;
+    
+    }
 }

@@ -2,5 +2,14 @@
     font-size: 2rem;
     line-height:2.8125;
     font-weight: normal;
+    margin-top: 0;
 
+}
+
+@media (max-width: 800px){
+    .survey__title{
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
