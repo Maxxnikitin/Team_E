@@ -1,0 +1,19 @@
+@import url(./__content/survey__content.css);
+@import url(./__paragraph/survey__paragraph.css);
+@import url(./__title/survey__title.css);
+@import url(./__image/survey__image.css);
+@import url(./__button/survey__button.css);
+
+.survey{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F1F1F2;
+    margin: 0 auto;
+}         
+
+@media (max-width: 800px){
+    .survey{
+        display: block;
+    }
+}

@@ -1,0 +1,20 @@
+@import url(./__nav-links/header__nav-links.css);
+@import url(./__nav-link/header__nav-link.css);
+@import url(./__button/header__button.css);
+@import url(./__nav/header__nav.css);
+
+header{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 800px){
+    .header{
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+}

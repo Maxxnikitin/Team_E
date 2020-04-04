@@ -1,0 +1,31 @@
+.header__button{
+    border:1px solid #F7941E;
+    color: #F7941E;
+    width: 150px; 
+    height: 43px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px 35px 35px 0;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    
+
+}
+.header__button:hover{
+    
+    transition: 0.3s;
+    box-shadow: 10px 10px 4px 0 rgba(98, 98, 98, .2);
+}
+@media (max-width: 800px){
+    .header__button{
+        margin: 10px 0 10px 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .header__button{
+        margin-left: 15px;
+        
+    }
+}

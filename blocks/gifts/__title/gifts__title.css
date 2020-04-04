@@ -1,0 +1,14 @@
+.gifts__title{
+
+    max-width: 422px;
+    margin: 150px auto 25px;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: normal;
+    text-align: center;
+}
+@media (max-width: 800px){
+    .gifts__title{
+        margin-top: 100px;
+    }
+}

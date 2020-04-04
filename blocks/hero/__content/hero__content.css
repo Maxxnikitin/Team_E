@@ -1,0 +1,22 @@
+.hero__content{
+    max-width: 350px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+
+    .hero__content{
+        max-width: 500px;
+        padding-top: 50px;
+        
+    }
+}
+@media (max-width: 500px){
+
+    .hero__content{
+        max-width: 300px;
+       
+        
+    }
+}
