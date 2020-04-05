@@ -1,14 +1,20 @@
 # Giftstore
 
-Landingpage about a giftstore, where you can buy gifts to your wife or girlfriend.
+Landingpage for a giftstore, where you can buy gifts for your wife or girlfriend.
 
-**Site talking about** store, how they work and what gifts you can buy them. Also they've a recommendation system and a blog.
+## Website consists of:
 
-## Used tochnology:
+* store itself
+* how it works - gift matching algorithm
+* recommendations for various holidays
+* contact form
+* blogs section with gift advices
 
-* HTML,
-* CSS,
-* Flex,
-* Grid,
-* Responsive and adaptive from 320px to 1440px,
-* Nested BEM.
+## Technologies used:
+
+* HTML
+* CSS
+* Flex
+* Grid
+* Responsive and adaptive design from 320px to 1440px
+* Nested BEM
