@@ -1,0 +1,38 @@
+.footer__logo {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    color: #F7941E;
+    font-size: 1.125rem;
+    line-height: 2.4375rem;
+    margin: 0 141px;
+    text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.footer__logo:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__logo {
+        margin: 0 105px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer__logo {
+        margin: 0 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__logo {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer__logo {
+        margin: 0 35px;
+    }
+}

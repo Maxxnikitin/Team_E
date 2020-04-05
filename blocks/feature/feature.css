@@ -7,9 +7,16 @@
 
 
 .feature {
-    width: 1170px;
+    max-width: 81.25%;
     background-color: #231F20;
-    margin: 71px auto 88px;
+    margin: 77px auto 40px;
     color: white;
     display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .feature {
+        margin: 42px auto 60px;
+        flex-direction: column;
+    }
 }

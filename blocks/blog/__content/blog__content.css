@@ -1,6 +1,19 @@
 .blog__content {
     font-size: 1.125rem;
     line-height: 140.62%;
-    max-width: 474px;
-    margin: 0 48px 16px;
+    font-weight: 500;
+    margin: 0 3rem 40px;
+    max-width: 95%;
+}
+
+@media screen and (max-width: 1200px) {
+    .blog__content {
+        margin: 0 2rem 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .blog__content {
+        margin: 0 1rem 40px;
+    }
 }
