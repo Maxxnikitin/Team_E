@@ -11,10 +11,10 @@
     grid-template-columns: 1fr 1fr;
     background-color: #F1F1F2;
     margin: 0 auto;
-   
+
 }
 
-@media (max-width: 800px){
+@media (max-width: 600px){
     .hero{
         display: block;
     }
