@@ -2,7 +2,7 @@
     font-size: .875rem;
     line-height: 140.62%;
     font-weight: 500;
-    margin: 0;
+    margin: 0 3rem 3.125rem;
     text-decoration: none;
     color: black;
     transition: opacity .2s linear;
@@ -10,4 +10,16 @@
 
 .blog__lead:hover {
     opacity: .7;
+}
+
+@media screen and (max-width: 1200px) {
+    .blog__lead {
+        margin: 0 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .blog__lead {
+        margin: 0 1rem 1rem;
+    }
 }

@@ -13,3 +13,9 @@
 .footer__social:hover {
     opacity: .7;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__social {
+        margin-right: 19px;
+    }
+}

@@ -2,6 +2,19 @@
     font-size: 1.5rem;
     line-height: 140.62%;
     font-weight: 800;
-    max-width: 474px;
-    margin: 43px 0 18px;
+    margin: 3rem 3rem 18px;
+    max-width: 95%;
 }
+
+@media screen and (max-width: 1200px) {
+    .blog__title {
+        margin: 2rem 2rem 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .blog__title {
+        margin: 1rem 1rem 18px;
+    }
+}
+

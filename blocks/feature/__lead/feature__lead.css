@@ -11,3 +11,9 @@
 .feature__lead:hover {
     opacity: .7;
 }
+
+@media screen and (max-width: 800px) {
+    .feature__lead {
+        margin-bottom: 15px;
+    }
+}
