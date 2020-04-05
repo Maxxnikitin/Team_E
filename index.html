@@ -7,7 +7,7 @@
   <meta name='description' content='Page about gifts to wife or girlfriend'>
   <meta name='keywords' content='HTML5, CSS'>
   <meta name='author' content='Team_E'>
-  <title>Best gifts</title>
+  <title>giftstore</title>
   <base target='_blank'>
 </head>
 <body>
@@ -20,18 +20,17 @@
             <li><a class="header__nav-link" href="#">About Us</a></li>
             <li><a class="header__nav-link" href="#">Services</a></li>
             <li><a class="header__nav-link" href="#">Blogs</a></li>
-        </ul>  
+        </ul>
       </nav>
-      <button class="header__button button" type="button"> gift finder</button>
-
+      <button class="header__button" type="button" onclick="location.href='#'">gift finder</button>
     </header>
 
-    <main class='content'>
+    <main class="content">
       <section class="hero">
         <div class="hero__content">
           <h1 class="hero__title">Find a gift for your wife or girlfriend</h1>
           <h3 class="hero__subtitle">Struggling to find a gift for your wife or girlfriend? No problem!</h3>
-          <button class="hero__button button" type="button">find gift now</button>
+          <button class="hero__button" type="button" onclick="location.href='#'">find gift now</button>
         </div>
         <img class="hero__image" src="./images/couple.png" alt="image of couple">
       </section>
@@ -40,10 +39,11 @@
         <img class="survey__image" src="./images/thanks.png" alt="thanks card image">
         <div class="survey__content">
           <h1 class="survey__title">How we work</h1>
-          <p class="survey__paragraph">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</h3>
-          <button class="survey__button button" type="button">learn more</button>
+          <p class="survey__paragraph">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+          <button class="survey__button" type="button" onclick="location.href='#'">learn more</button>
         </div>
       </section>
+
       <section class="gifts">
         <h2 class="gifts__title">Gifts for all Occasions</h2>
         <p class="gifts__subtitle">“Try our web app to find the best gifts for all occasions”</p>
@@ -51,31 +51,91 @@
           <div class="cards__blog">
               <img class="cards__image" src="./images/birthday.png" alt="postcard image">
               <h3 class="cards__title">Birthday</h3>
-              <a class="cards__link">See More &#8250;</a>
+              <a class="cards__link" href='#'>See More &#8250;</a>
           </div>
           <div class="cards__blog">
             <img class="cards__image" src="./images/anniversary.png" alt="image of gifts">
             <h3 class="cards__title">Anniversary</h3>
-            <a class="cards__link">See More &#8250;</a>
+            <a class="cards__link" href='#'>See More &#8250;</a>
           </div>
           <div class="cards__blog">
-            <img class="cards__image" src="./images/valetine.png" alt="valentine day image">
+            <img class="cards__image" src="./images/valentine.png" alt="valentine day image">
             <h3 class="cards__title">Valentine's Day</h3>
-            <a class="cards__link">See More &#8250;</a>
+            <a class="cards__link" href='#'>See More &#8250;</a>
           </div>
           <div class="cards__blog">
             <img class="cards__image" src="./images/christmas.png" alt="christmas tree image">
             <h3 class="cards__title">Christmas</h3>
-            <a class="cards__link">See More &#8250;</a>
+            <a class="cards__link" href='#'>See More &#8250;</a>
           </div>
-
         </div>
+      </section>
 
 
+      <section class="cta">
+        <div class="cta__text">
+          <h3 class="cta__title">Ready to get started?</h3>
+          <p class="cta__subtitle">Sign up or contact us</p>
+        </div>
+        <div class="cta__buttons">
+          <button class="cta__button cta__button_color_black" type="button" onclick="location.href='#'">
+            <p class="cta__button_text">Find gift now</p>
+          </button>
+          <button class="cta__button cta__button_color_orange" type="button" onclick="location.href='#'">
+            <p class="cta__button_text">how it works</p>
+          </button>
+        </div>
+      </section>
+
+      <section class="blogs">
+        <h2 class="blogs__title">Our Best Blogs Ever</h2>
+        <p class="blogs__subtitle">“Try our blog to find the best tips and tricks to select your gift”</p>
+        <div class="feature">
+          <img src="images/feature.jpg" alt="happy family couple" class="feature__image">
+          <div class="feature__text">
+            <p class="feature__author">Mr. John Doe</p>
+            <h3 class="feature__title">The best way to wish your wife</h3>
+            <a href="#" class="feature__lead">Read More</a>
+          </div>
+        </div>
+        <div class="blogs__container">
+          <div class="blog">
+            <h4 class="blog__title">Database to find the gifts for your girlfriend</h4>
+            <p class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+            <a href="#" class="blog__lead">Read More</a>
+          </div>
+          <div class="blog">
+            <h4 class="blog__title">How Artificial Intelligence read your mind to find the best gift</h4>
+            <p class="blog__content">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+            <a href="#" class="blog__lead">Read More</a>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class='footer'>
+      <div class="footer__container">
+        <a href="#" class="footer__link">Home</a>
+        <a href="#" class="footer__link">About</a>
+        <a href="#" class="footer__logo">logo</a>
+        <a href="#" class="footer__link">Service</a>
+        <a href="#" class="footer__link">Blog</a>
+      </div>
+
+      <div class="footer__socials">
+        <a href="#" class="footer__social"><img src="images/facebook.svg" alt="Facebook icon" class="footer__icon"></a>
+        <a href="#" class="footer__social"><img src="images/twitter.svg" alt="Twitter icon" class="footer__icon"></a>
+        <a href="#" class="footer__social"><img src="images/instagram.svg" alt="Instagram icon" class="footer__icon"></a>
+        <a href="#" class="footer__social"><img src="images/youtube.svg" alt="Youtube icon" class="footer__icon"></a>
+        <a href="#" class="footer__social"><img src="images/pinterest.svg" alt="Pinterest icon" class="footer__icon"></a>
+      </div>
+
+      <div class="footer__container">
+        <p class="footer__copyright">&copy; 2010 — 2020</p>
+        <a href="#" class="footer__terms">Privacy — Terms</a>
+      </div>
     </footer>
   </div>
 </body>

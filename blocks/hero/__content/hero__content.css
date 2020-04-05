@@ -3,3 +3,21 @@
     align-self: center;
     margin: 0 auto;
 }
+
+@media (max-width: 800px){
+    .hero__content{
+        max-width: 500px;
+        margin: 0 1.5rem;
+    }
+}
+@media (max-width: 600px){
+  .hero__content{
+      margin: 0 auto;
+      padding-top: 4rem;
+  }
+}
+@media (max-width: 500px){
+    .hero__content{
+        margin: 0 1.5rem;
+    }
+}

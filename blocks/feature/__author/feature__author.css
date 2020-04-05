@@ -1,0 +1,24 @@
+.feature__author {
+    font-size: .875rem;
+    line-height: 140.62%;
+    font-weight: 300;
+    margin: 60px 0 23px;
+}
+
+@media screen and (max-width: 1200px) {
+    .feature__author {
+        margin: 45px 0 17.25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .feature__author {
+        margin: 30px 0 11.5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feature__author {
+        margin: 15px 0 10px;
+    }
+}

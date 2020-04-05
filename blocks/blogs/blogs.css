@@ -1,0 +1,27 @@
+@import url('__title/blogs__title.css');
+@import url('__subtitle/blogs__subtitle.css');
+@import url('__container/blogs__container.css');
+
+
+.blogs {
+    margin: 0 auto;
+    padding: 83px 0 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .blogs {
+        padding: 65px 0 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blogs {
+        padding: 45px 0 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blogs {
+        padding: 32px 0 30px;
+    }
+}

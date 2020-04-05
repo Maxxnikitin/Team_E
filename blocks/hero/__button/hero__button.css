@@ -8,5 +8,23 @@
     color: white;
     width: 200px;
     height: 43px;
+    transition: box-shadow 0.3s;
+}
+.hero__button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 4px 0 rgba(98, 98, 98, .3);
+}
 
+@media (max-width: 800px){
+    .hero__button{
+       display: block;
+       margin: 0 auto;
+
+    }
+}
+@media (max-width: 600px){
+  .hero__button{
+     margin: 0 auto 2rem;
+
+  }
 }

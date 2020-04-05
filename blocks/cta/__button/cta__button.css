@@ -1,0 +1,55 @@
+@import url(./_color/cta__button_color_black.css);
+@import url(./_color/cta__button_color_orange.css);
+@import url(./_text/cta__button_text.css);
+
+.cta__button {
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.cta__button:first-of-type {
+  margin-right: 16px;
+}
+.cta__button:hover {
+  box-shadow: 10px 10px 4px 0 rgba(98, 98, 98, .4);
+}
+
+@media (max-width: 1200px) {
+  .cta__button {
+    width: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cta__button:first-of-type {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta__button {
+    width: 150px;
+    height: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .cta__button:first-of-type {
+    margin-right: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .cta__button {
+    width: 130px;
+  }
+}

@@ -1,0 +1,12 @@
+.blogs__container {
+    max-width: 81.25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .blogs__container {
+        flex-direction: column;
+    }
+}
