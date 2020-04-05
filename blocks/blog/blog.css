@@ -6,33 +6,21 @@
 .blog {
     display: flex;
     flex-direction: column;
-    width: 570px;
-    height: 290px;
+    max-width: 48.718%;
     align-items: flex-start;
     transition: box-shadow .2s linear;
-    padding: 3rem 3rem 0;
 }
 
 .blog:hover {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-
-@media screen and (max-width: 1200px) {
-    .blog {
-        width: 390px;
-        padding: 2rem 2rem 0;
-    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .blog {
-        width: 290px;
-        padding: 1rem 1rem 0;
+        max-width: 100%;
     }
-}
 
-@media screen and (max-width: 600px) {
-    .blog {
-        max-width: 195px;
-        padding: .75rem .75rem 0;
+    .blog:first-of-type {
+        margin-bottom: 40px;
     }
 }

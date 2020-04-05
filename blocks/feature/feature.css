@@ -7,28 +7,16 @@
 
 
 .feature {
-    max-width: 1170px;
+    max-width: 81.25%;
     background-color: #231F20;
     margin: 77px auto 40px;
     color: white;
     display: flex;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     .feature {
-        max-width: 800px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .feature {
-        max-width: 600px;
-        margin: 42px auto 22px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .feature {
-        max-width: 450px;
+        margin: 42px auto 60px;
+        flex-direction: column;
     }
 }
