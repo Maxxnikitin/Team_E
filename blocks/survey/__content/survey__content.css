@@ -13,11 +13,21 @@
     }
 }
 
-
-
 @media (max-width: 800px){
     .survey__content{
         max-width: 500px;
-        padding-bottom: 50px;
+        margin: 0 1.5rem;
     }
+}
+@media (max-width: 600px){
+  .survey__content{
+      margin: 0 auto;
+      padding-top: 0;
+      padding-bottom: 4rem;
+  }
+}
+@media (max-width: 530px){
+  .survey__content{
+      margin: 0 1.5rem;
+  }
 }

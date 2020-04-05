@@ -12,10 +12,13 @@
         text-align: center;
     }
 }
-
+@media (max-width: 600px){
+  .hero__subtitle{
+      font-size: 1.7rem;
+  }
+}
 @media (max-width: 500px){
     .hero__subtitle{
-        max-width: 300px;
-    
+      margin: 0 auto 1.5rem;
     }
 }
